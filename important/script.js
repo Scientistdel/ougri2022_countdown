@@ -1,4 +1,4 @@
-const finaleTime = new Date("Sept 22, 2022 09:00:00").getTime();
+const finaleTime = new Date("July 28, 2022 09:00:00").getTime();
 
 const timer = () =>{
     const currentTime = new Date().getTime();
@@ -29,7 +29,3 @@ const timer = () =>{
 timer();
 // Calling the function every 1000 milliseconds.
 setInterval(timer, 1000);
-
-
-
-
